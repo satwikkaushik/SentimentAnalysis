@@ -1,7 +1,16 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Logistic Regression Model for Sentiment Analysis
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+This repository contains a machine learning project that utilizes a Logistic Regression model to classify students' review, of an online course, based on various features. The project aims to demonstrate the application of logistic regression in binary classification problems, model evaluation techniques, and the use of confusion matrices for performance visualization.
+The output of the analysis is devided into three category: Positive, Negative and Neutral
+The project is also able to analye reviews in bulk by reading it from a csv file.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Project Structure
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+- `Training.ipynb`: Contains the code for training the Logistic Regression model using scikit-learn.
+- 'App.py' : Entry point of the project, contains basic UI for user input and result output
+
+## Model
+The project uses a Logistic Regression model from scikit-learn for binary classification. Logistic Regression is chosen for its simplicity and effectiveness in binary classification tasks.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
