@@ -6,8 +6,8 @@ The project is also able to analye reviews in bulk by reading it from a csv file
 
 ## Project Structure
 
-- `Training.ipynb`: Contains the code for training the Logistic Regression model using scikit-learn.
-- 'App.py' : Entry point of the project, contains basic UI for user input and result output
+- `Training.ipynb` : Contains the code for training the Logistic Regression model using scikit-learn.
+- `App.py` : Entry point of the project, contains basic UI for user input and result output
 
 ## Model
 
