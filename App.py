@@ -76,7 +76,7 @@ print("| 2. Analyze csv file(bulk review)      |")
 print("+---------------------------------------+")
 
 # Take user input
-user_ask = input()
+user_ask = input(">>> ")
 if(user_ask == "1"):
     user_input = input("Enter a review: ")
     try:

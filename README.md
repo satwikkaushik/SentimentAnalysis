@@ -1,8 +1,8 @@
 # Logistic Regression Model for Sentiment Analysis
 
-This repository contains a machine learning project that utilizes a Logistic Regression model to classify students' review, of an online course, based on various features. The project aims to demonstrate the application of logistic regression in binary classification problems, model evaluation techniques, and the use of confusion matrices for performance visualization.
+This project preprocesses student reviews, extracts features using TF-IDF vectorization, trains a Logistic Regression model, and predicts the sentiment of new reviews. 
 The output of the analysis is devided into three category: Positive, Negative and Neutral
-The project is also able to analye reviews in bulk by reading it from a csv file.
+It also includes functionalities to analyze a single review or bulk reviews from a CSV file and determine the overall sentiment of a course.
 
 ## Project Structure
 
@@ -12,7 +12,7 @@ The project is also able to analye reviews in bulk by reading it from a csv file
 ## Model
 
 The project uses a Logistic Regression model from scikit-learn for binary classification. Logistic Regression is chosen for its simplicity and effectiveness in binary classification tasks.
-The model is trained on a dataset containing 1,40,000+ reviews from coursera, thus producing results with an accuracy of 93%.
+The model is trained on a dataset containing 1,00,000+ reviews from coursera, thus producing results with an accuracy of 93%.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
